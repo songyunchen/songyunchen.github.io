@@ -379,3 +379,20 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 /* Keep decorative glow shapes within the document width (no horizontal scrollbars). */
 .ambient-one { width: 280px; right: 0; }
 .ambient-two { width: 280px; left: 0; }
+
+/* Reduce the font size of Songyun Chen */
+.hero h1 {
+  font-size: clamp(36px, 5vw, 58px);
+  letter-spacing: -2px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+/* Mobile devices */
+@media (max-width: 720px) {
+  .hero h1 {
+    font-size: clamp(28px, 7vw, 42px);
+    letter-spacing: -1px;
+    white-space: nowrap;
+  }
+}
