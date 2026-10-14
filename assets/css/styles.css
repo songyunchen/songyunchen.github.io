@@ -396,3 +396,28 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
     white-space: nowrap;
   }
 }
+
+/* Reduce the size of the homepage photo frame */
+.hero-visual {
+  width: 100%;
+  max-width: 390px;
+  justify-self: end;
+}
+
+.visual-frame {
+  height: 430px;
+  min-height: 0;
+}
+
+/* Mobile devices */
+@media (max-width: 720px) {
+  .hero-visual {
+    max-width: 300px;
+    justify-self: center;
+  }
+
+  .visual-frame {
+    height: 340px;
+    min-height: 0;
+  }
+}
