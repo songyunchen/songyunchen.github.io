@@ -251,7 +251,7 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 .cv-meta { display: flex; flex-wrap: wrap; gap: 12px 32px; margin: 24px 0 47px; font-size: 12px; color: var(--ink-soft); }
 .cv-meta a { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
 .cv-block { display: grid; grid-template-columns: 210px 1fr; gap: 40px; padding: 34px 0; border-top: 1px solid var(--hairline); }
-.cv-block h2 { margin: 0; font: 400 26px var(--serif); }
+.cv-block h2 { margin: 0; font: 400 20px var(--serif); }
 .cv-block p { margin: 0 0 11px; font-size: 14px; line-height: 1.8; color: var(--ink-soft); }
 .cv-block strong { color: var(--ink); }
 .cv-block ul { margin: 0; padding-left: 20px; }
