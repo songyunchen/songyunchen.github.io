@@ -243,7 +243,7 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 .cv-main { padding-top: 96px; padding-bottom: 110px; max-width: 980px; }
 .cv-kicker { color: var(--gold); font-size: 10px; font-weight: 800; letter-spacing: 2px; }
 .cv-head { display: flex; justify-content: space-between; gap: 30px; align-items: end; padding-bottom: 36px; border-bottom: 2px solid var(--ink); }
-.cv-head h1 { font: 400 clamp(20px, 7.5vw, 20px)/1 var(--serif); letter-spacing: -3px; margin: 16px 0 15px; }
+.cv-head h1 { font: 400 clamp(54px, 7.5vw, 20px)/1 var(--serif); letter-spacing: -3px; margin: 16px 0 15px; }
 .cv-head h1 em { color: var(--gold); }
 .cv-head p { font-size: 14px; line-height: 1.6; color: var(--muted); margin: 0; }
 .print-button { background: var(--ink); color: var(--paper); border: 0; padding: 14px 19px; font-size: 12px; cursor: pointer; white-space: nowrap; }
