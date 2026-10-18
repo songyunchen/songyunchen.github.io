@@ -222,7 +222,7 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 .contact-inner h2 { font-family: var(--serif); font-size: clamp(65px, 8vw, 103px); font-weight: 400; letter-spacing: -4px; margin: 12px 0 17px; }
 .contact-inner h2 em { color: var(--gold); }
 .contact-inner > p { color: var(--muted); font-size: 17px; line-height: 1.8; max-width: 610px; margin: 0 0 31px; }
-.contact-email { display: inline-flex; gap: 25px; align-items: center; font-family: var(--serif); font-size: clamp(21px, 3vw, 39px); border-bottom: 1px solid var(--gold); padding-bottom: 9px; max-width: 100%; overflow-wrap: anywhere; }
+.contact-email { display: inline-flex; gap: 25px; align-items: center; font-family: var(--serif); font-size: clamp(16px, 3vw, 26px); border-bottom: 1px solid var(--gold); padding-bottom: 9px; max-width: 100%; overflow-wrap: anywhere; }
 .contact-email span { color: var(--gold); font: 24px var(--sans); }
 .contact-email:hover { color: var(--gold); }
 .contact-divider { height: 1px; background: var(--hairline); margin: 79px 0 34px; }
