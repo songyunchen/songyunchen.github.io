@@ -88,7 +88,7 @@ button { font: inherit; }
 .hero-copy { padding: 3px 0 6px; }
 .eyebrow { display: flex; align-items: center; gap: 14px; }
 .eyebrow-line { width: 27px; height: 1px; background: var(--gold); display: inline-block; }
-.hero h1 { font-family: var(--serif); font-weight: 400; letter-spacing: -5px; line-height: .94; font-size: clamp(79px, 9vw, 128px); margin: 29px 0 0; }
+.hero h1 { font-family: var(--serif); font-weight: 400; letter-spacing: -5px; line-height: .94; font-size: clamp(30px, 4.5vw, 58px); margin: 29px 0 0; }
 .hero h1 em { font-style: italic; font-weight: 400; }
 .gold-stop { color: var(--gold); }
 .hero-chinese { font-size: 19px; font-family: "Noto Serif CJK SC", "Songti SC", SimSun, serif; letter-spacing: 5px; color: var(--gold); margin: 22px 0 28px; }
