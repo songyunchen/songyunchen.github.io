@@ -397,6 +397,23 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 }
 
 
+/* Reduce homepage name font size */
+.hero h1 {
+  font-size: clamp(30px, 4.5vw, 58px);
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+/* Mobile devices */
+@media (max-width: 720px) {
+  .hero h1 {
+    font-size: clamp(26px, 6vw, 38px);
+    letter-spacing: -1px;
+  }
+}
+
+
 /* Reduce the size of the homepage photo frame */
 .hero-visual {
   width: 100%;
