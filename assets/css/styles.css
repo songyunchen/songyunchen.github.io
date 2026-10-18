@@ -449,3 +449,36 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
     letter-spacing: -1px;
   }
 }
+
+
+/* Academic Homepage Visitor Statistics */
+.visitor-stats {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #8a8a8a;
+  letter-spacing: 0.3px;
+  margin: 25px auto 20px;
+  padding: 12px 15px;
+}
+
+.visitor-stats span {
+  display: inline-block;
+}
+
+.visitor-divider {
+  margin: 0 12px;
+  color: #b8b8b8;
+}
+
+/* Mobile devices */
+@media (max-width: 720px) {
+  .visitor-stats {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .visitor-divider {
+    margin: 0 7px;
+  }
+}
