@@ -382,7 +382,7 @@ html[data-theme="dark"] .visual-frame { box-shadow: 22px 22px 0 #21384a; }
 
 /* Reduce the font size of Songyun Chen */
 .hero h1 {
-  font-size: clamp(28px, 4vw, 32px);
+  font-size: clamp(26px, 4vw, 32px);
   letter-spacing: -2px;
   line-height: 1.00;
   white-space: nowrap;
