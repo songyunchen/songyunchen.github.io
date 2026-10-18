@@ -92,7 +92,7 @@ button { font: inherit; }
 .hero h1 em { font-style: italic; font-weight: 400; }
 .gold-stop { color: var(--gold); }
 .hero-chinese { font-size: 19px; font-family: "Noto Serif CJK SC", "Songti SC", SimSun, serif; letter-spacing: 5px; color: var(--gold); margin: 22px 0 28px; }
-.hero-intro { max-width: 520px; color: var(--ink-soft); font-size: clamp(18px, 1.9vw, 22px); line-height: 1.65; margin: 0 0 24px; }
+.hero-intro { max-width: 520px; color: var(--ink-soft); font-size: clamp(18px, 1.9vw, 22px); line-height: 1.65; margin: 0 0 24px; color: var(--gold); }
 .hero-intro strong { font-weight: 700; color: var(--ink); }
 .hero-affiliation { font-size: 13px; line-height: 1.75; color: var(--muted); margin: 0; }
 .hero-affiliation span { color: var(--ink); font-weight: 750; }
